@@ -1,0 +1,18 @@
+.movie-list, .series-list{
+    margin: 30px 0px;
+    
+}
+
+.movie-list, .series-list h2{
+    color: whitesmoke;
+}
+
+
+.movie-container, .series-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(190px, 1fr) );
+    gap: 20px;
+    
+    
+}
